@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Converters</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Converters</h1>
+        <div class="converter">
+            <h2>Temperature Converter</h2>
+            <form id="temp-converter-form">
+                <input type="number" id="celsius-input" placeholder="Enter Celsius temperature" step="0.01" required>
+                <button type="submit">Convert</button>
+            </form>
+            <p id="temp-result"></p>
+        </div>
+        <hr>
+        <div class="converter">
+            <h2>Marla to Square Feet Converter</h2>
+            <form id="marla-converter-form">
+                <input type="number" id="marla-input" placeholder="Enter Marla" step="0.01" required>
+                <button type="submit">Convert</button>
+            </form>
+            <p id="marla-result"></p>
+        </div>
+        <hr>
+        <div class="converter">
+            <h2>Yards to Square Feet Converter</h2>
+            <form id="yard-converter-form">
+                <input type="number" id="yard-input" placeholder="Enter Yards" step="0.01" required>
+                <button type="submit">Convert</button>
+            </form>
+            <p id="yard-result"></p>
+        </div>
+    </div>
+    <script src="script.mjs"></script>
+</body>
+</html>
